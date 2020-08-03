@@ -1,23 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TexasSeal from './components/texasSeal';
+import TexasHeader from './components/texasHeader';
 
 function App() {
   return (
     <div className="App">
+    <TexasHeader/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        
+        <TexasSeal/>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          About Texas
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
