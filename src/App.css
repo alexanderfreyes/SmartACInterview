@@ -9,6 +9,11 @@
 .logo {
   float: left
 }
+.logoText {
+  float: left;
+  font-size: 1.7em;
+  text-indent: 0.5em;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

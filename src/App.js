@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import TexasSeal from './components/texasSeal';
 import TexasHeader from './components/texasHeader';
+import TexasInfo from './components/texasInfo';
 
 function App() {
   return (
